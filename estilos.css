@@ -1,0 +1,64 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+ 
+.tablink {
+    margin-top: 100px;
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+  
+.tablink:hover {
+    background-color: #777;
+}
+  
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+  
+#Pizza {background-color: orangered;}
+#Empanadas {background-color: seagreen}
+
+/*A partir de aca empieza css para la interfaz de dentro del menu  */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}.price {
+  color: #000;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+  
